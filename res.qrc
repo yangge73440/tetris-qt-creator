@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>tetrixbackground.jpg</file>
+        <file>ai_battle_background.jpg</file>
+        <file>mainmenu_background.png</file>
+        <file>singleplayer_bg.jpg</file>
+        <file>aibattle_bg.jpg</file>
+        <file>pvp_bg.jpg</file>
+        <file>adventure_bg.jpg</file>
+        <file>adventure_bg2.jpg</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>tetrixbackground.jpg</file>
+        <file>ai_battle_background.jpg</file>
+        <file>mainmenu_background.png</file>
+        <file>singleplayer_bg.jpg</file>
+        <file>aibattle_bg.jpg</file>
+        <file>pvp_bg.jpg</file>
+        <file>adventure_bg.jpg</file>
+        <file>adventure_bg2.jpg</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>tetrix.mp3</file>
+        <file>down.wav</file>
+        <file>gameover.wav</file>
+        <file>remove.wav</file>
+    </qresource>
+</RCC>

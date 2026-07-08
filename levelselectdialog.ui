@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LevelSelectDialog</class>
+ <widget class="QDialog" name="LevelSelectDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>选择关卡</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+    background-color: rgb(255, 240, 245);
+}
+QPushButton{
+    background-color: rgb(255, 182, 193);
+    border: 2px solid rgb(255, 85, 127);
+    border-radius: 10px;
+    font: 700 14pt &quot;Microsoft YaHei UI&quot;;
+    color: rgb(139, 0, 139);
+    padding: 10px;
+}
+QPushButton:hover{
+    background-color: rgb(255, 85, 127);
+    color: white;
+}
+QLabel{
+    color: rgb(255, 85, 127);
+    font: 700 18pt &quot;Microsoft YaHei UI&quot;;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="labelTitle">
+     <property name="text">
+      <string>🎮 闯关模式 🎮</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btnLevel1">
+       <property name="text">
+        <string>第 1 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="btnLevel2">
+       <property name="text">
+        <string>第 2 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="btnLevel3">
+       <property name="text">
+        <string>第 3 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="btnLevel4">
+       <property name="text">
+        <string>第 4 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="btnLevel5">
+       <property name="text">
+        <string>第 5 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btnLevel6">
+       <property name="text">
+        <string>第 6 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="btnLevel7">
+       <property name="text">
+        <string>第 7 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="btnLevel8">
+       <property name="text">
+        <string>第 8 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="btnLevel9">
+       <property name="text">
+        <string>第 9 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QPushButton" name="btnLevel10">
+       <property name="text">
+        <string>第 10 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="btnLevel11">
+       <property name="text">
+        <string>第 11 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="btnLevel12">
+       <property name="text">
+        <string>第 12 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="btnLevel13">
+       <property name="text">
+        <string>第 13 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QPushButton" name="btnLevel14">
+       <property name="text">
+        <string>第 14 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QPushButton" name="btnLevel15">
+       <property name="text">
+        <string>第 15 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="btnLevel16">
+       <property name="text">
+        <string>第 16 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QPushButton" name="btnLevel17">
+       <property name="text">
+        <string>第 17 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QPushButton" name="btnLevel18">
+       <property name="text">
+        <string>第 18 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QPushButton" name="btnLevel19">
+       <property name="text">
+        <string>第 19 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QPushButton" name="btnLevel20">
+       <property name="text">
+        <string>第 20 关</string>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnEndless">
+     <property name="text">
+      <string>♾️ 无尽模式</string>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>200</width>
+       <height>60</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+        background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFD700, stop:1 #FFA500);
+        border: 3px solid #FF8C00;
+        border-radius: 20px;
+        font: 700 18pt &quot;Microsoft YaHei UI&quot;;
+        color: #8B4513;
+    }
+    QPushButton:hover{
+        background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #FFA500, stop:1 #FF8C00);
+        color: white;
+    }</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btnBack">
+     <property name="text">
+      <string>返回主菜单</string>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>150</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnBack</sender>
+   <signal>clicked()</signal>
+   <receiver>LevelSelectDialog</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>375</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>400</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
