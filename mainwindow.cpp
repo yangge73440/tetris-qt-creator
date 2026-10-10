@@ -17,8 +17,6 @@ MainWindow::MainWindow(QWidget *parent, TetrixBoard::GameMode mode, int difficul
 {
     ui->setupUi(this);
     
-    // 设置单人模式游戏框背景图片
-    ui->frameTetrixBoard->setBackgroundPixmap(QPixmap(":/images/singleplayer_bg.jpg"));
     ui->frameTetrixBoard->setNextPieceLabel(ui->labelNextPiece);
     ui->frameTetrixBoard->setGameMode(mode);
     ui->frameTetrixBoard->setDifficulty(difficulty);
